@@ -5,4 +5,5 @@
 - tsc: compiler (specifics yet unknown)
 - Visualstudio Code: Code-editor simplified and streamlined for debugging, task running and version control
    -eslint: quickly analyzes and finds problems with your Code#
-   -gitgraph: graphically documents codechanges 
+   -gitgraph: graphically documents codechanges
+- .md stands for Markdown for Textfiles on Github
