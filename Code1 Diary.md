@@ -7,3 +7,4 @@
    -eslint: quickly analyzes and finds problems with your Code#
    -gitgraph: graphically documents codechanges
 - .md stands for Markdown for Textfiles on Github
+- clone repositorys with Visual Studio Code and connect to your Githubaccount
