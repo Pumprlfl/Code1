@@ -21,4 +21,8 @@
 
 
 
+<<<<<<< HEAD
 fefdfdfgfggf
+=======
+HHHHHHHHHHHAAAAAAAAAAAA
+>>>>>>> main
