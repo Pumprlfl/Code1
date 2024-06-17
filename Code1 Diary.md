@@ -14,4 +14,7 @@
 - Remote: is a shared repository between Teammembers that stores all the changes
 - stage: is an environment to test your changes
 - commit: for saving changes/commiting to them
-- fetch
+- fetch: downloads data from other repositorys into your current file
+- pull: command to fetch data
+- push: command to upload data from your repository onto another
+- merge: adding different branches/changes made to the file back together into one file again
