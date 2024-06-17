@@ -19,4 +19,3 @@
 - push: command to upload data from your repository onto another
 - merge: adding different branches/changes made to the file back together into one file again
 
-Affe
