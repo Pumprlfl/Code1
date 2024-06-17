@@ -8,3 +8,10 @@
    -gitgraph: graphically documents codechanges
 - .md stands for Markdown for Textfiles on Github
 - clone repositorys with Visual Studio Code and connect to your Githubaccount
+- Repository: a place for storage
+- Commit: happens when there is a change you commit to by pressing the according button
+- Branch: supposed to redirect you to previous changes you commited to
+- Remote: is a shared repository between Teammembers that stores all the changes
+- stage: is an environment to test your changes
+- commit: for saving changes/commiting to them
+- fetch
