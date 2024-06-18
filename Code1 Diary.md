@@ -1,5 +1,6 @@
 ### Code 1 Diary
 17.06.2024 Notes
+Instalation
 - Git: sourcecodesharingtool for big and small projects
 - node.js: opensource runtime environment, runs your Javascriptcode for you
 - tsc: compiler (specifics yet unknown)
@@ -7,6 +8,8 @@
    -eslint: quickly analyzes and finds problems with your Code#
    -gitgraph: graphically documents codechanges
 - .md stands for Markdown for Textfiles on Github
+  
+Git:
 - clone repositorys with Visual Studio Code and connect to your Githubaccount
 - Repository: a place for storage
 - Commit: happens when there is a change you commit to by pressing the according button
@@ -27,5 +30,13 @@
   (https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 - rolling back to the last commit: 
   (https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
-
-  hihi
+  
+Html
+- Meaning: Hypertext Markup Language
+- Markup: Contents defined by text, markups define the Text they are incapsulating
+- Syntax: defines the order in which tasks are executed and defines rules, the Grammar of the language 
+- Semantic: define the meaning of the content they contain, clearly indicate the role of the content they contain 
+- Tags: for defining (https://www.tutorialstonight.com/html-tags-list-with-examples?utm_content=cmp-true)
+- Attributes: give further Information within your tags (https://www.w3schools.com/tags/ref_standardattributes.asp)
+- Virtual Studio Code: define a new File as HTML and copy it  into a Browser in order to see changes
+- 
