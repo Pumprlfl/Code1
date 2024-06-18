@@ -19,4 +19,7 @@
 - push: command to upload data from your repository onto another
 - merge: adding different branches/changes made to the file back together into one file again
 
-main
+18.06.2024 Notes
+- .gitignore: add a file named .gitignore and mark all the parts that are supposed to be ignored
+  (https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+- 
