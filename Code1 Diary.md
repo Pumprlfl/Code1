@@ -21,6 +21,8 @@
 - merge: push the branch you are working on and select merge under branches in order to apply the changes to the other Branch
   (https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
+  hihi
+
 18.06.2024 Notes
 - .gitignore: add a file named .gitignore and mark all the parts that are supposed to be ignored
   (https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
