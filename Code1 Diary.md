@@ -24,4 +24,5 @@
 18.06.2024 Notes
 - .gitignore: add a file named .gitignore and mark all the parts that are supposed to be ignored
   (https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-- rolling back to the last commit:
+- rolling back to the last commit: 
+  (https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
