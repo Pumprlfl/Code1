@@ -18,8 +18,10 @@
 - pull: command to fetch data
 - push: command to upload data from your repository onto another
 - merge: adding different branches/changes made to the file back together into one file again
+- merge: push the branch you are working on and select merge under branches in order to apply the changes to the other Branch
+  (https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 18.06.2024 Notes
 - .gitignore: add a file named .gitignore and mark all the parts that are supposed to be ignored
   (https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
-- 
+- rolling back to the last commit:
