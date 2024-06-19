@@ -39,4 +39,10 @@ Html
 - Tags: for defining (https://www.tutorialstonight.com/html-tags-list-with-examples?utm_content=cmp-true)
 - Attributes: give further Information within your tags (https://www.w3schools.com/tags/ref_standardattributes.asp)
 - Virtual Studio Code: define a new File as HTML and copy it  into a Browser in order to see changes
+
+19.06.2024 Notes
+CSS:
+- Cascading: Order of execution of styles
+- Properties to change Font, Fontsize, Margin, Colors, Textalignment
+- Selectors in CSS: (https://www.w3schools.com/cssref/css_selectors.php)
 - 
