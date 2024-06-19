@@ -46,5 +46,5 @@ CSS:
 - Properties to change Font, Fontsize, Margin, Colors, Textalignment
 - Selectors in CSS: (https://www.w3schools.com/cssref/css_selectors.php)
   - add an id to the div in order to select it in CSS
-  - make a div incapsulating all the elements to refer to and write <div class="example"> to refer to all the elements incapsulated within the the class so that
+  - make a div incapsulating all the elements to refer to and write <div class=""example> to refer to all the elements incapsulated within the the class so that
     you can refer to in css with .example
