@@ -1,3 +1,7 @@
-body {
-color: aqua;
+.monkey {
+    color: aquamarine;
+div#test{
+    background-color: beige;
+    font-size: 80px;
+}
 }
