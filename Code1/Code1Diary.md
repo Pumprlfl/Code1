@@ -58,7 +58,10 @@ CSS:
 
   20.06.2024 Notes
   JavaScript/ Typescript:
+  - (https://jirkadelloro.github.io/EIA2-Inverted/L01_Recap&Foundation/#einblick)
   - strg+space=referencen öffnen zum verlinken
   - tsc --init: um tsconfig file zu öffnen
   - strg+shift+b um tsc watch zu aktivieren
+  - Nan: not a number also z.B. eine Variable
+  - 
   
