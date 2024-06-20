@@ -55,4 +55,10 @@ CSS:
   - attributes:
 - Selectors in CSS practice: (https://flukeout.github.io/) 
 - flex-practice: (https://flexboxfroggy.com/#de)
+
+  20.06.2024 Notes
+  JavaScript/ Typescript:
+  - strg+space=referencen öffnen zum verlinken
+  - tsc --init: um tsconfig file zu öffnen
+  - strg+shift+b um tsc watch zu aktivieren
   
