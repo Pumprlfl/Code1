@@ -39,6 +39,7 @@ Html
 - Tags: for defining (https://www.tutorialstonight.com/html-tags-list-with-examples?utm_content=cmp-true)
 - Attributes: give further Information within your tags (https://www.w3schools.com/tags/ref_standardattributes.asp)
 - Virtual Studio Code: define a new File as HTML and copy it  into a Browser in order to see changes
+- Link: return to previous Folder by putting .in front of the Link example: ./examplefolder, one . per folder to return back to
 
 19.06.2024 Notes
 CSS:
@@ -54,3 +55,4 @@ CSS:
   - attributes:
 - Selectors in CSS practice: (https://flukeout.github.io/) 
 - flex-practice: (https://flexboxfroggy.com/#de)
+  
