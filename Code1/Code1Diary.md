@@ -63,5 +63,8 @@ CSS:
   - tsc --init: um tsconfig file zu öffnen
   - strg+shift+b um tsc watch zu aktivieren
   - Nan: not a number also z.B. eine Variable
-  - 
+
+ 24.06.2024 Notes
+- add codelines in order for the prompt to affect more than just the directly behind it
+- 
   
