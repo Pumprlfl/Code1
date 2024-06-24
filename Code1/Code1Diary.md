@@ -66,5 +66,7 @@ CSS:
 
  24.06.2024 Notes
 - add codelines in order for the prompt to affect more than just the directly behind it
-- 
+- create array to use data stored within it with "name=[]" and call the data by the counted place it has in the array (count starts with 0)
+- (https://www.youtube.com/watch?v=_5jdE6RKxVk) associative array: associate a key with the data and call upon it by using the key
+  z.B. data={"affe":12}
   
