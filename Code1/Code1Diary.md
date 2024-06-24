@@ -62,11 +62,12 @@ CSS:
   - strg+space=referencen öffnen zum verlinken
   - tsc --init: um tsconfig file zu öffnen
   - strg+shift+b um tsc watch zu aktivieren
-  - Nan: not a number also z.B. eine Variable
+  - Nan: not a number also z.B. a variable
 
  24.06.2024 Notes
-- add codelines in order for the prompt to affect more than just the directly behind it
+- add brackets in order for the prompt to affect more than just the things directly behind it
 - create array to use data stored within it with "name=[]" and call the data by the counted place it has in the array (count starts with 0)
+  (https://jirkadelloro.github.io/EIA2-Inverted/L01_Recap&Foundation/#komplexe-datentypen)
 - (https://www.youtube.com/watch?v=_5jdE6RKxVk) associative array: associate a key with the data and call upon it by using the key
   z.B. data={"affe":12}
   
