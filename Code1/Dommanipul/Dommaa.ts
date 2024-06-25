@@ -1,8 +1,12 @@
 let spanElement = document.getElementsByTagName("span")[0];
 spanElement.textContent = "Aaahh";
 
-let newspan = document.createElement("span");
-newspan.textContent = "World";
-document.body.appendChild(newspan);
+let i:number = 1;
 
-console.log(newspan);
+do {let newspan = document.createElement("span");
+    newspan.textContent = "World";
+    document.body.appendChild(newspan);
+    newspan.style.backgroundColor = "red";
+    console.log(i);
+    i++;
+} while(i < 10)
