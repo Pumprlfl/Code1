@@ -1,7 +1,7 @@
 let spanElement = document.getElementsByTagName("span")[0];
 spanElement.textContent = "Aaahh";
 
-let i:number = 1;
+let i = 1;
 
 do {let newspan = document.createElement("span");
     newspan.textContent = "World";
@@ -10,4 +10,3 @@ do {let newspan = document.createElement("span");
     console.log(i);
     i++;
 } while(i <= 10)
-
