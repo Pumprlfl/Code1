@@ -70,4 +70,7 @@ CSS:
   (https://jirkadelloro.github.io/EIA2-Inverted/L01_Recap&Foundation/#komplexe-datentypen)
 - (https://www.youtube.com/watch?v=_5jdE6RKxVk) associative array: associate a key with the data and call upon it by using the key
   z.B. data={"affe":12}
-  
+
+25.06.2024 Notes
+- Objects in javascript: (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object?retiredLocale=de)
+- 
