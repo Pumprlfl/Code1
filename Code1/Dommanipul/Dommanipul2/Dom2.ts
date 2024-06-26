@@ -1,3 +1,4 @@
-for (let s=0; s<5; s++){
-    let span=document.createElement("span")
+function addtohtml () {
+    const newDiv= document.createElement("div");
+    const newContent=document.createTextNode("")
 }
