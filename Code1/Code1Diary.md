@@ -73,4 +73,5 @@ CSS:
 
 25.06.2024 Notes
 - Objects in javascript: (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object?retiredLocale=de)
-- 
+- document.(...) um in ts auf das HTML Dokument zuzugreifen
+- Create new Html element in ts: (https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement?retiredLocale=de)
