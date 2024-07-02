@@ -79,3 +79,7 @@ CSS:
 27.06.2024 Notes
 Canvas:
 - Gradient: (https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
+
+1.07.2024
+- setTimeout: https://www.youtube.com/watch?v=shWr5DNVeCI&t=195s
+- 
