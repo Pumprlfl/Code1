@@ -79,3 +79,13 @@ CSS:
 27.06.2024 Notes
 Canvas:
 - Gradient: (https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient)
+
+01.07.2024 Notes
+Interface:
+- https://www.typescriptlang.org/docs/handbook/interfaces.html
+- 
+ 
+
+02.07.2024 Notes
+Animation:
+- setTimeout: https://www.youtube.com/watch?v=shWr5DNVeCI&t=195s
