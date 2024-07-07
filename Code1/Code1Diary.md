@@ -89,3 +89,7 @@ Interface:
 02.07.2024 Notes
 Animation:
 - setTimeout: https://www.youtube.com/watch?v=shWr5DNVeCI&t=195s
+
+Other Notes:
+- Array[]=[] signifies that this an empty array which means that any given condition for Array is true
+- _ in js/ts : https://www.thoughtco.com/and-in-javascript-2037515#:~:text=The%20dollar%20sign%20(%24)%20and,properties%2C%20events%2C%20and%20objects.
