@@ -7,7 +7,7 @@ let keys: XyloKey[] = [];
 let playerSong: string = "";
 let playerTurn: boolean = false;
 let keysPlayed: number = 0;
-let song: string = "12345678";
+let song: string = "11556654433221";
 
 interface XyloKey {
     sound: string,
@@ -36,7 +36,7 @@ function startGame() {
     canvas.style.border = "1px solid black";
     document.body.appendChild(canvas);
 
-    if (currentGameMode === "Standard") {
+    if (currentGameMode === "Standard") { 
         const button = document.createElement('button');
         button.id = "Simon";
         button.textContent = 'Play next note';
@@ -203,13 +203,14 @@ function playKey(_key: XyloKey): void {
     const canvas = document.getElementById("canvas") as HTMLCanvasElement;
     const ctx: CanvasRenderingContext2D = canvas.getContext("2d")!;
     ctx.strokeStyle = "white";
-    ctx.lineWidth = 10;
+    ctx.stroke(_key.path);
+    ctx.strokeStyle = "black";
     ctx.stroke(_key.path);
     audioCtx.resume().then(() => {
         sound.play();
     });
-    //
-    drawKey(_key, ctx);
+    ctx.strokeStyle = "black";
+    ctx.stroke(_key.path);
 }
 
 let songProgress: number = 0;
@@ -286,7 +287,7 @@ function victory(): void {
     document.body.appendChild(p);
 
     let restartButton = document.createElement("button");
-    restartButton.textContent = "Back to home screen";
+    restartButton.textContent = "Back to menu";
     restartButton.addEventListener("click", restart);
     document.body.appendChild(restartButton);
 }
@@ -301,29 +302,53 @@ function restart(_event: MouseEvent):void {
 function songSelector(): void {
     let songButton = document.createElement("button");
     songButton.textContent = "Twinkle Twinkle Little Star";
-    songButton.id = "Twinkle";
-    songButton.addEventListener("click", restart);
+    songButton.id = "11556654433221";
+    songButton.className = "songSelect"
+    songButton.addEventListener("click", selectSong);
     document.body.appendChild(songButton);
 
     let songButton2 = document.createElement("button");
     songButton2.textContent = "Ode to Joy";
-    songButton2.id = "Joy";
-    songButton2.addEventListener("click", restart);
+    songButton2.id = "334554321123322";
+    songButton2.className = "songSelect"
+    songButton2.addEventListener("click", selectSong);
     document.body.appendChild(songButton2);
 
     let songButton3 = document.createElement("button");
     songButton3.textContent = "Mary had a little Lamp";
-    songButton3.id = "Mary";
-    songButton3.addEventListener("click", restart);
+    songButton3.id = "321233322233355321233322232";
+    songButton3.className = "songSelect"
+    songButton3.addEventListener("click", selectSong);
     document.body.appendChild(songButton3);
+
+    let songButton4 = document.createElement("button");
+    songButton4.textContent = "Let It Be";
+    songButton4.id = "3213566653213334332321";
+    songButton4.className = "songSelect"
+    songButton4.addEventListener("click", selectSong);
+    document.body.appendChild(songButton4);
+
+    let songButton5 = document.createElement("button");
+    songButton5.textContent = "Funky Town (Riff)";
+    songButton5.id = "5545225875";
+    songButton5.className = "songSelect"
+    songButton5.addEventListener("click", selectSong);
+    document.body.appendChild(songButton5);
+
 
 }
 
-function selectSsong(_event: MouseEvent) {
+function selectSong(_event: MouseEvent) {
 
-
-
-
+    song = (_event.target as Element).id;
+    playerSong = "";
+    keysPlayed = 0;
+    songProgress = 0;
+    strikeCount = 0;
+    let counter: HTMLElement = document.getElementsByTagName("span")[0];
+    counter.textContent = "Strikes: 0";
+    playerTurn = false;
+    
 
 }
 
