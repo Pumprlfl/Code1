@@ -290,6 +290,8 @@ function victory(): void {
     restartButton.textContent = "Back to menu";
     restartButton.addEventListener("click", restart);
     document.body.appendChild(restartButton);
+
+    
 }
 
 
@@ -300,6 +302,7 @@ function restart(_event: MouseEvent):void {
 
 
 function songSelector(): void {
+
     let songButton = document.createElement("button");
     songButton.textContent = "Twinkle Twinkle Little Star";
     songButton.id = "11556654433221";
@@ -335,7 +338,23 @@ function songSelector(): void {
     songButton5.addEventListener("click", selectSong);
     document.body.appendChild(songButton5);
 
+ var parent = songButton.parentNode!;
+    var wrapper = document.createElement('div');
 
+    parent.replaceChild(wrapper, songButton);
+    wrapper.appendChild(songButton);
+
+    parent.replaceChild(wrapper, songButton2);
+    wrapper.appendChild(songButton2);
+
+    parent.replaceChild(wrapper, songButton3);
+    wrapper.appendChild(songButton3);
+
+    parent.replaceChild(wrapper, songButton4);
+    wrapper.appendChild(songButton4);
+    
+    parent.replaceChild(wrapper, songButton5);
+    wrapper.appendChild(songButton5);
 }
 
 function selectSong(_event: MouseEvent) {

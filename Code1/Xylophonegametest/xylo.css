@@ -73,5 +73,10 @@ button:hover {
 
 /*Song select button styles*/
 .songSelect {
-    justify-content: start;
+display:inline-block;
+margin-left: 5px;
+margin-bottom: 10px;
+/*position: relative;
+bottom: 700px;*/
+
 }
